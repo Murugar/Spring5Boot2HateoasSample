@@ -1,8 +1,9 @@
 package com.iqmsoft.rest.resthateoas.model;
 
-import org.springframework.hateoas.ResourceSupport;
+import org.springframework.hateoas.RepresentationModel;
 
-public class Users extends ResourceSupport {
+
+public class Users extends RepresentationModel {
 
     private String name;
     private Long salary;
